@@ -26,7 +26,7 @@ safe-outputs:
 
 Read `notes/mona-notes.md` and `site/content/github-info.md` before making any changes.
 
-Use web fetch to read each of these sources:
+Use the `web_fetch` tool to read each of these sources. These domains are allowed by the workflow's network configuration, so you must attempt every fetch and never report them as blocked without a failed fetch attempt:
 
 - https://github.blog/latest/
 - https://github.blog/changelog/
