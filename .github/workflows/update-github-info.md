@@ -1,6 +1,7 @@
 ---
 name: update-github-info
 description: Review recent GitHub Blog and Changelog updates and propose practical updates to the GitHub Info page.
+model: gpt-6-luna
 on:
   schedule:
     - cron: "0 14 * * *"
